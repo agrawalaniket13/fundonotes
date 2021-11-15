@@ -1,0 +1,10 @@
+class component
+sabse pehele constructor run hoga
+after constructor render will automatically happen
+whenever your state are changing render will happen
+component did mount will call only one time
+component did update will call after the state will be changed
+component will unmount phase will happen when component render will not happen any more
+getDerivedStateFromProps() will call after constructor and when your props is changing (these will call one time only)
+shouldComponentUpdate()
+getSnapShotBeforeUpdate()
